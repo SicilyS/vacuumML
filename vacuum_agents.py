@@ -1,9 +1,8 @@
 '''
-Use this script file to define your robot vacuum agents.
+this script file to define robot vacuum agents.
 
 The run function will generate a map showing the animation of the robot, and return the output of the loss function at the end of the run. The many_runs function will run the simulation multiple times without the visualization and return the average loss.
 
-You will need to implement a run_all function, which executes the many_runs function for all 12 of your agents (with the correct parameters) and sums up their returned losses as a single value. Your run_all function should use the following parameters for each agent: map_width=20, max_steps=50000 runs=100.
 '''
 
 from vacuum import *
